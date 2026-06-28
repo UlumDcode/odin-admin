@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Odin Admin Panel</title>
+  <link rel="icon" href="assets/images/avatar-ulfa.svg">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="container">
+    <aside class="sidebar">
+      <div class="branding">
+        <svg class="icon icon-xl icon-white"><use href="assets/svgs/sprite.svg#dashboard"/></svg>
+        <h1>Odin Admin</h1>
+      </div>
+
+      <nav class="nav">
+        <a href="#" class="nav-item">
+          <svg class="icon icon-white"><use href="assets/svgs/sprite.svg#home"/></svg>
+          <span>Home</span>
+        </a>
+        <a href="#" class="nav-item">
+          <svg class="icon icon-white"><use href="assets/svgs/sprite.svg#account"/></svg>
+          <span>Profile</span>
+        </a>
+        <a href="#" class="nav-item">
+          <svg class="icon icon-white"><use href="assets/svgs/sprite.svg#message"/></svg>
+          <span>Messages</span>
+        </a>
+        <a href="#" class="nav-item">
+          <svg class="icon icon-white"><use href="assets/svgs/sprite.svg#clock"/></svg>
+          <span>History</span>
+        </a>
+        <a href="#" class="nav-item">
+          <svg class="icon icon-white"><use href="assets/svgs/sprite.svg#clipboard-check"/></svg>
+          <span>Tasks</span>
+        </a>
+        <a href="#" class="nav-item">
+          <svg class="icon icon-white"><use href="assets/svgs/sprite.svg#account-group"/></svg>
+          <span>Communities</span>
+        </a>
+      </nav>
+
+      <div class="settings-group">
+        <a href="#" class="nav-item">
+          <svg class="icon icon-white"><use href="assets/svgs/sprite.svg#cog"/></svg>
+          <span>Settings</span>
+        </a>
+        <a href="#" class="nav-item">
+          <svg class="icon icon-white"><use href="assets/svgs/sprite.svg#help-circle"/></svg>
+          <span>Support</span>
+        </a>
+        <a href="#" class="nav-item">
+          <svg class="icon icon-white"><use href="assets/svgs/sprite.svg#shield"/></svg>
+          <span>Privacy</span>
+        </a>
+      </div>
+    </aside>
+
+    <header class="header">
+      <div class="search-bar">
+        <svg class="icon icon-dark"><use href="assets/svgs/sprite.svg#magnify"/></svg>
+        <input type="search" placeholder="Search...">
+      </div>
+
+      <div class="user-info">
+        <svg class="icon icon-dark"><use href="assets/svgs/sprite.svg#bell-ring"/></svg>
+        <img src="assets/images/avatar-ulfa.svg" alt="avatar" class="avatar small-avatar">
+        <span class="username">UlumDcode</span>
+      </div>
+
+      <div class="header-bottom">
+        <div class="greeting">
+          <img src="assets/images/avatar-ulfa.svg" alt="avatar" class="avatar large-avatar">
+          <div class="greeting-text">
+            <p class="greeting-sub">Hi there,</p>
+            <p class="greeting-name">UlumDcode (@UlumDcode)</p>
+          </div>
+        </div>
+
+        <div class="action-buttons">
+          <button class="btn">New</button>
+          <button class="btn">Upload</button>
+          <button class="btn">Share</button>
+        </div>
+      </div>
+    </header>
+
+    <main class="main-content">
+      <h3 class="section-title">Your Projects</h3>
+
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="card-content">
+            <h4>Super Cool Project</h4>
+            <p>Sed tempus ut lacus ut scelerisque. Suspendisse sollicitudin nibh erat, id facilisis felis accumsan nec.</p>
+          </div>
+          <div class="card-icons">
+            <svg class="icon icon-dark icon-sm"><use href="assets/svgs/sprite.svg#star-plus"/></svg>
+            <svg class="icon icon-dark icon-sm"><use href="assets/svgs/sprite.svg#eye-plus"/></svg>
+            <svg class="icon icon-dark icon-sm"><use href="assets/svgs/sprite.svg#share-variant"/></svg>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="card-content">
+            <h4>Less Cool Project</h4>
+            <p>Nullam condimentum ipsum ut lectus vehicula consectetur. Quisque sed dolor tincidunt, consectetur sapien et.</p>
+          </div>
+          <div class="card-icons">
+            <svg class="icon icon-dark icon-sm"><use href="assets/svgs/sprite.svg#star-plus"/></svg>
+            <svg class="icon icon-dark icon-sm"><use href="assets/svgs/sprite.svg#eye-plus"/></svg>
+            <svg class="icon icon-dark icon-sm"><use href="assets/svgs/sprite.svg#share-variant"/></svg>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="card-content">
+            <h4>Impossible App</h4>
+            <p>In hac habitasse platea dictumst. Vivamus dictum rutrum arcu, a placerat velit sagittis id.</p>
+          </div>
+          <div class="card-icons">
+            <svg class="icon icon-dark icon-sm"><use href="assets/svgs/sprite.svg#star-plus"/></svg>
+            <svg class="icon icon-dark icon-sm"><use href="assets/svgs/sprite.svg#eye-plus"/></svg>
+            <svg class="icon icon-dark icon-sm"><use href="assets/svgs/sprite.svg#share-variant"/></svg>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="card-content">
+            <h4>Easy Peasy App</h4>
+            <p>Etiam cursus eros ac efficitur fringilla. Vestibulum dignissim urna eget accumsan aliquam.</p>
+          </div>
+          <div class="card-icons">
+            <svg class="icon icon-dark icon-sm"><use href="assets/svgs/sprite.svg#star-plus"/></svg>
+            <svg class="icon icon-dark icon-sm"><use href="assets/svgs/sprite.svg#eye-plus"/></svg>
+            <svg class="icon icon-dark icon-sm"><use href="assets/svgs/sprite.svg#share-variant"/></svg>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="card-content">
+            <h4>Ad Blocker</h4>
+            <p>Quisque eget rutrum nisl. Nam augue justo, cursus vitae metus vel, pharetra hendrerit felis.</p>
+          </div>
+          <div class="card-icons">
+            <svg class="icon icon-dark icon-sm"><use href="assets/svgs/sprite.svg#star-plus"/></svg>
+            <svg class="icon icon-dark icon-sm"><use href="assets/svgs/sprite.svg#eye-plus"/></svg>
+            <svg class="icon icon-dark icon-sm"><use href="assets/svgs/sprite.svg#share-variant"/></svg>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="card-content">
+            <h4>Money Maker</h4>
+            <p>Praesent convallis, libero quis congue elementum, nunc ante faucibus sapien, ac scelerisque tortor.</p>
+          </div>
+          <div class="card-icons">
+            <svg class="icon icon-dark icon-sm"><use href="assets/svgs/sprite.svg#star-plus"/></svg>
+            <svg class="icon icon-dark icon-sm"><use href="assets/svgs/sprite.svg#eye-plus"/></svg>
+            <svg class="icon icon-dark icon-sm"><use href="assets/svgs/sprite.svg#share-variant"/></svg>
+          </div>
+        </article>
+      </div>
+    </main>
+
+    <aside class="right-sidebar">
+      <section class="announcements">
+        <h3 class="section-title">Announcements</h3>
+        <div class="announcements-card">
+          <div class="announcement-item">
+            <h5>Site Maintenance</h5>
+            <p>Vestibulum condimentum tellus lacus, in accumsan elit maximus ac. Donec hendrerit sodales congue...</p>
+          </div>
+          <div class="announcement-item">
+            <h5>Community Share Day</h5>
+            <p>Nam vel lectus tincidunt, rutrum nulla eu, ornare libero. Aliquam dictum accumsan porttitor...</p>
+          </div>
+          <div class="announcement-item no-border">
+            <h5>Updated Privacy Policy</h5>
+            <p>Phasellus efficitur nisi eget elit consectetur, eget condimentum ante auctor. Cras fringilla sagittis...</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="trending">
+        <h3 class="section-title">Trending</h3>
+        <div class="trending-card">
+          <div class="trend-item">
+            <img src="assets/images/avatar-1.svg" alt="avatar" class="avatar small-avatar">
+            <div class="trend-user">
+              <p class="trend-tag">@tegan</p>
+              <p class="trend-desc">World Peace Builder</p>
+            </div>
+          </div>
+          <div class="trend-item">
+            <img src="assets/images/avatar-2.svg" alt="avatar" class="avatar small-avatar">
+            <div class="trend-user">
+              <p class="trend-tag">@morgan</p>
+              <p class="trend-desc">Super Cool Project</p>
+            </div>
+          </div>
+          <div class="trend-item">
+            <img src="assets/images/avatar-3.svg" alt="avatar" class="avatar small-avatar">
+            <div class="trend-user">
+              <p class="trend-tag">@kendall</p>
+              <p class="trend-desc">Life Changing App</p>
+            </div>
+          </div>
+          <div class="trend-item">
+            <img src="assets/images/avatar-4.svg" alt="avatar" class="avatar small-avatar">
+            <div class="trend-user">
+              <p class="trend-tag">@alex</p>
+              <p class="trend-desc">No Traffic Maker</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </aside>
+  </div>
+
+</body>
+</html>
